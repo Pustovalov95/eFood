@@ -14,6 +14,9 @@ $(document).ready(function(){
         infinite: true,
         slidesToShow: 5,
         slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        speed: 1000,
         prevArrow: '<button type="button" class="slick-prev"><img src="img/popular/arrow-left.png" alt=""></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="img/popular/arrow-right.png" alt=""></button>',
         responsive: [
@@ -47,6 +50,9 @@ $(document).ready(function(){
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        speed: 1000,
         prevArrow: '<button type="button" class="slick-prev"><img src="img/feedback/ArrowLeft.png" alt=""></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="img/feedback/ArrowRight.png" alt=""></button>'
       });
