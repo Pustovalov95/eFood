@@ -241,7 +241,7 @@
             .active {
                 display: flex;
                 left: 0px;
-                transition: 0.5s;
+                transition: 0.9s;
                 span {
                     display: none;
                 }
@@ -357,6 +357,12 @@
         }
         &__burgers_wrapper {
             flex-direction: column;
+            .slick-prev {
+                top: 95%;
+            }
+            .slick-next {
+                top: 95%;
+            }
         }
         &__burger_item {
             width: 100%;
