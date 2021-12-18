@@ -60,7 +60,7 @@ $(document).ready(function(){
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 1000,
         speed: 2000,
         prevArrow: '<button type="button" class="slick-prev"><img src="img/feedback/ArrowLeft.png" alt=""></button>',
         nextArrow: '<button type="button" class="slick-next"><img src="img/feedback/ArrowRight.png" alt=""></button>'
